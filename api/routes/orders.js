@@ -7,14 +7,12 @@ router.get('/', (req, res) => {
 	Orders.find()
 		.exec()
 		.then(x => res.status(200).send(x))
-	res.send('get Orders')
 })
 
 router.get('/:id', (req, res) => {
 	Orders.findById(req.params.id)
 		.exec()
 		.then(x => res.status(200).send(x))
-	res.send('get Orders')
 })
 
 router.post('/', (req, res) => {
@@ -26,7 +24,6 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
 	Orders.findOneAndUpdate(req.params.id, req.body)
 		.then(x => res.sendStatus(204))
-	res.send('get Orders')
 })
 
 router.delete('/:id', (req, res) => {
