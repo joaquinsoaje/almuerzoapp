@@ -1,6 +1,6 @@
 # Custom Build Example
 
-This directory is a brief example of using a Custom Build script that can be deployed with Vercel and zero configuration.
+TThis directory is a brief example of using a Custom Build script that can be deployed with Vercel and zero configuration.
 
 ## Deploy Your Own
 
