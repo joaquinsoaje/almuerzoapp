@@ -1,0 +1,9 @@
+const meals = app.router()
+meals.get('/',(req. res) => {
+
+})
+
+meals.post('/',(req. res) => {
+
+})
+
